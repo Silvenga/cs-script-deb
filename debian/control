@@ -1,0 +1,17 @@
+Source: cs-script
+Section: cli-mono
+Priority: optional
+Maintainer: Mark Lopez (Authority) <m@silvenga.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://www.csscript.net/
+
+Package: cs-script
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, mono-runtime
+Description: C# Script execution engine version
+ CS-Script is a CLR (Common Language Runtime) based 
+ scripting system which uses ECMA-compliant C# as a 
+ programming language. CS-Script currently targets 
+ Microsoft implementation of CLR (.NET 2.0/3.0/3.5/4.0/4.5)
+ with full support on Mono. 

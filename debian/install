@@ -1,0 +1,6 @@
+bin/cscs 			usr/bin
+inc/who.cs 			usr/share/cs-script/inc
+inc/which.cs 		usr/share/cs-script/inc
+inc/README.txt 		usr/share/cs-script/inc
+inc/pkill.cs 		usr/share/cs-script/inc 
+inc/isadmin.cs 		usr/share/cs-script/inc
