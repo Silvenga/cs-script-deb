@@ -38,7 +38,10 @@ Task("Clean")
     DeleteOrIgnore(bin);
     DeleteOrIgnore(inc);
     DeleteOrIgnore(doc);
-    var exit = StartProcess("debuild", GetSettings("clean"));
+    DeleteFiles("*.deb");
+    DeleteFiles("*.build");
+    DeleteFiles("*.changes");
+    var exit = StartProcess("debuild", GetSettings("clean", baseDir));
     if(exit != 0)
     {
         throw new Exception("Cleaning was not successful.");
