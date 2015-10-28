@@ -1,8 +1,14 @@
 # CS-Script
 
-Debian/Ubuntu package builder for cs-script.
+[![Build Status](https://jenkins.silvenga.com/job/CS-Script/badge/icon)](https://jenkins.silvenga.com/job/CS-Script/)
 
-## Build Dependencies
+Debian/Ubuntu package builder for cs-script (http://www.csscript.net/).
+
+The final package can be found at http://deb.silvenga.com.
+
+# Build Your Own
+
+### Build Dependencies
 
 ```
 # Build dependencies
@@ -11,8 +17,14 @@ apt-get install p7zip-full mono-complete devscripts debhelper
 mozroots --import --ask-remove
 ```
 
-## Build
+### Building
 
 ```
-./build
+./build --target Build
+```
+
+### Cleaning
+
+```
+./build --target Clean
 ```
