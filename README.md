@@ -1,6 +1,6 @@
 # CS-Script
 
-[![Build Status](https://jenkins.silvenga.com/job/CS-Script/badge/icon)](https://jenkins.silvenga.com/job/CS-Script/)
+[![Build Status](https://img.shields.io/teamcity/https/teamcity.silvenga.com/e/CsScript_Build.svg?label=TeamCity&style=flat-square)](https://teamcity.silvenga.com/viewType.html?buildTypeId=CsScript_Build&guest=1)
 
 Debian/Ubuntu package builder for cs-script (http://www.csscript.net/).
 
