@@ -4,8 +4,6 @@
 
 Debian/Ubuntu package builder for cs-script (http://www.csscript.net/).
 
-The final package can be found at http://deb.silvenga.com.
-
 # Build Your Own
 
 ### Build Dependencies
@@ -20,11 +18,11 @@ mozroots --import --ask-remove
 ### Building
 
 ```
-./build --target Build
+./build.sh --target Build
 ```
 
 ### Cleaning
 
 ```
-./build --target Clean
+./build.sh --target Clean
 ```

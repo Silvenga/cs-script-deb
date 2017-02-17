@@ -2,7 +2,7 @@ var target = Argument<string>("target", "Default");
 
 const string sevenZip = "7z";
 const string chmod = "chmod";
-const string downloadLink = "http://download-codeplex.sec.s-msft.com/Download/Release?ProjectName=csscriptsource&DownloadId=1484264&FileTime=130882256360700000&Build=21031";
+const string downloadLink = "https://github.com/oleg-shilo/cs-script/releases/download/v3.24.0/cs-script.7z";
 const string tempPath = "./tmp";
 
 const string baseDir = "./cs-script";
